@@ -25,7 +25,7 @@ Vou analisar os três arquivos e gerar uma tabela de resumo das vendas por país
 
 Os arquivos contêm colunas semelhantes, incluindo informações sobre o país de entrega (delivery_country), quantidade vendida (quantity) e valor total (total_price). Agora, vou consolidar os dados e gerar um resumo das vendas por país. 
 
-[script python]()
+[script python](../scripts/chatgpt4o_scritps/prompt1-1.py)
 
 Aqui está o resumo das vendas por país:
 
@@ -39,7 +39,7 @@ Aqui está o resumo das vendas por país:
 | Reino Unido  | 1.260                           | 13                       |
 | EUA          | 520                             | 5                        |
 
-[script python]()
+[script python](../scripts/chatgpt4o_scritps/prompt1-2.py)
 
 <a name = "prompt-2"></a>
 ## 2. Prompt 2 
@@ -63,7 +63,7 @@ Aqui está o resumo das vendas por país com os valores convertidos para USD:
 | Reino Unido  | 1.452,00              | 13                       |
 | EUA          | 572,00                | 5                        |
 
-[script python]()
+[script python](../scripts/chatgpt4o_scritps/prompt2-1.py)
 
 <a name = "prompt-3"></a>
 ## 3. Prompt 3 
@@ -74,7 +74,7 @@ Em dólares (USD): $17.488,50
 
 Em reais (BRL): R$ 87.442,50
 
-[script python]()
+[script python](../scripts/chatgpt4o_scritps/prompt3-1.py)
 
 <a name = "prompt-4"></a>
 ## 4. Prompt 4
@@ -111,7 +111,7 @@ Aqui está a tabela com a idade média dos compradores por produto em cada país
 | Reino Unido  | NEW MEGANIUM RG CubeXX  | 58,0        | 1           | 100,00             | 1                  |
 | EUA          | MEGANIUM RG353M         | 37,0        | 2           | 484,00             | 4                  |
 | EUA          | NEW MEGANIUM RG CubeXX  | 44,0        | 1           | 88,00              | 1                  |
-[script python]()
+[script python](../scripts/chatgpt4o_scritps/prompt4-1.py)
 
 <a name = "prompt-5"></a>
 ## 5. Prompt 5
@@ -120,11 +120,11 @@ Vou calcular a receita total (em USD) de cada produto em cada plataforma e, em s
 
 Parece que a coluna "platform" não está presente nos dados carregados. Vou verificar os nomes das colunas para corrigir isso. ​​
 
-[script python]()
+[script python](../scripts/chatgpt4o_scritps/prompt5-1.py)
 
 A coluna correspondente à plataforma de vendas está nomeada como "site" e não "platform". Vou refazer a análise usando o nome correto. ​​
 
-[script python]()
+[script python](../scripts/chatgpt4o_scritps/prompt5-2.py)
 
 Aqui estão os resultados:
 
@@ -156,7 +156,7 @@ Receita total (em USD) de cada plataforma:
 | Etsy       | 5.707,50            |
 | Shopee     | 6.163,50            |
 
-[script python]()
+[script python](../scripts/chatgpt4o_scritps/prompt5-3.py)
 
 <a name = "prompt-6"></a>
 ## 6. Prompt 6
@@ -169,7 +169,7 @@ Aqui estão os números totais de pedidos e produtos vendidos por site:
 | Etsy       | 20               | 56                         |
 | Shopee     | 20               | 64                         |
 
-[script python]()
+[script python](../scripts/chatgpt4o_scritps/prompt6-1.py)
 
 <a name = "prompt-7"></a>
 ## 7. Prompt 7  - **INSIGHT FALHO**
@@ -192,7 +192,7 @@ Ticket Médio = Receita Total (USD) / Total de Pedidos
 
 ~~| Shopee     | 280,88             |~~
 
-[script python]()
+[script python](../scripts/chatgpt4o_scritps/prompt7-1.py)
 
 <a name = "prompt-8"></a>
 ## 8. Prompt 8 - **Reformulação do insight anterior**
@@ -207,7 +207,7 @@ Aqui está o ticket médio de cada plataforma:
 
 O Shopee tem o maior ticket médio, indicando que os clientes gastam mais por pedido nessa plataforma. 
 
-[script python]()
+[script python](../scripts/chatgpt4o_scritps/prompt8-1.py)
 
 <a name = "prompt-9"></a>
 ## 9. Prompt 9
@@ -216,11 +216,11 @@ Vou criar uma tabela e um gráfico mostrando a quantidade de vendas ao longo do 
 
 Parece que a coluna com as datas dos pedidos tem um nome diferente nos arquivos. Vou verificar os nomes das colunas e corrigir isso. ​​
 
-[script python]()
+[script python](../scripts/chatgpt4o_scritps/prompt9-1.py)
 
 A coluna correta para a data do pedido é "date". Vou refazer a análise usando esse nome. ​​
 
-[script python]()
+[script python](../scripts/chatgpt4o_scritps/prompt9-2.py)
 
 [Gráfico](images/sellings_over_time_graph.png)
 
@@ -239,7 +239,7 @@ Aqui estão os resultados:
 | 2024-10-30 | 1                | 5                          |
 📈 Gráfico: O gráfico exibe a evolução das vendas ao longo do tempo, mostrando o total de pedidos e produtos vendidos em cada data.
 
-[script python]()
+[script python](../scripts/chatgpt4o_scritps/prompt9-3.py)
 
 <a name = "prompt-10"></a>
 ## 10. Prompt 10
@@ -334,7 +334,7 @@ Fontes:
 
 O estado foi redefinido, o que apagou os arquivos enviados. Por favor, reenvie os arquivos para que eu possa refazer a análise.
 
-[script python]()
+[script python](../scripts/chatgpt4o_scritps/prompt12-1.py)
 
 <a name = "prompt-13"></a>
 ## 13. Prompt 13 **Arquivos reenviados, possibilitando o insight a acontecer**
@@ -342,7 +342,7 @@ O estado foi redefinido, o que apagou os arquivos enviados. Por favor, reenvie o
 Obrigado por reenviar os arquivos! Vou processá-los novamente e refazer a análise das vendas no Japão em torno dos feriados.
 
 As colunas relevantes já estão corretas. Agora, vou converter a coluna de data para o formato adequado e filtrar os dados para analisar as vendas no Japão em torno dos feriados mencionados. ​​
-[script python]()
+[script python](../scripts/chatgpt4o_scritps/prompt13-1.py)
 
 Aqui estão as vendas no Japão nos períodos de 7 dias antes e 7 dias depois de cada feriado:
 
@@ -361,7 +361,7 @@ Dia do Esporte (14 de outubro de 2024):
 Análise: Houve um aumento nas vendas alguns dias antes do feriado, possivelmente relacionado ao evento.
 Parece que o Dia da Montanha e o Dia do Esporte tiveram um leve impacto positivo nas vendas, enquanto o Dia do Idoso não mostrou um padrão significativo. 
 
-[script python]()
+[script python](../scripts/chatgpt4o_scritps/prompt13-2.py)
 
 <a name = "prompt-14"></a>
 ## 14. Prompt 14
@@ -391,7 +391,7 @@ Os dados sugerem que **Canadá e França tiveram seu pico de vendas no outono, e
 
 O Reino Unido e os EUA tiveram registros que não puderam ser vinculados claramente a uma estação específica. 
 
-[script python]()
+[script python](../scripts/chatgpt4o_scritps/prompt14-1.py)
 
 <a name = "prompt-15"></a>
 ## 15. Prompt 15
@@ -437,4 +437,4 @@ Aqui estão os picos de pedidos e vendas por estação em cada país, agora incl
 
 **📌 Reino Unido e EUA tiveram registros sem uma estação bem definida, possivelmente devido a uma distribuição mais equilibrada das vendas ao longo do ano.**
 
-[script python]()
+[script python](../scripts/chatgpt4o_scritps/prompt15-1.py)
